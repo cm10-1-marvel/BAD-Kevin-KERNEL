@@ -26,10 +26,8 @@ Configs:
 - Add zRam
 - Add LZO
 
-
-Features:
+Governors:
 ==========
-* Governors:
 - Superbad
 - Skywalker
 - Intellidemand
