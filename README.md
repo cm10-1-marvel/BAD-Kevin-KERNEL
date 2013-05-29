@@ -1,10 +1,6 @@
 OWL-Predator v1.1
 ==============
 
-
-for HTC Marvel/MarvelC / HTC Aria / HTC ChaCha / HTC Legend
-==============================================================
-
 Changelog:
 ===========
 - Update ADSP driver
