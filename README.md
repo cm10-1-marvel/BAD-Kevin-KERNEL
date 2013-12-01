@@ -53,7 +53,8 @@ Schedulers:
 - CFQ
 - BFQ
 - VR
-- SIO [Default]
+- SIO 
+- ZEN [Default]
 
 Other Features:
 ==========
