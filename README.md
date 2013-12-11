@@ -1,19 +1,5 @@
-OWL-Predator v1.1
+BAD-Kevin v0.1
 ==============
-
-Changelog:
-===========
-- Update ADSP driver
-- Update KGSL from Kernel 3.x
-- Backport lowmemorykiller from Kernel 3.4
-- Backport UHID driver from Kernel 3.8
-- Backported console module  from Kernel 3.0
-- Backported backlight module from Kernel 3.0
-- Add PCM-WB support for VoIP
-- Enable SRS Post processing
-- Fix YouTube [LQ/HQ]
-- Fix Bluetooth Tethering
-
 
 Configs:
 ===========
@@ -24,7 +10,7 @@ Configs:
 
 Governors:
 ==========
-- Superbad
+- Superbad [Default]
 - Skywalker
 - Intellidemand
 - Lagfree
@@ -33,7 +19,7 @@ Governors:
 - Brazilionwax
 - Smartass
 - SmartassV2
-- SmartassH3 [Default]
+- SmartassH3
 - Minmax
 - Smoothass
 - Savagedzen
@@ -53,11 +39,12 @@ Schedulers:
 - CFQ
 - BFQ
 - VR
-- SIO 
-- ZEN [Default]
-
-Other Features:
+- SIO [Default]
+- ZEN
+Features:
 ==========
+- Serveral Kernel 3 backports
+- Some nice tweaks and makefile optimizations 
 - Ext2/3/4 support
 - Swap support
 - zRam that uses snappy
@@ -72,6 +59,7 @@ Credits:
 ===========
 - Andreas Schneider (Cryptomilk from based)
 - eoghan2t9
+- JDevs (OWL-based-v1.1)
 
 ==============
-                                                by OWL Project [Based on CRYPTOMILK Kernel]
+                                                by Kevinjoa [Based on OWL-v1.1 Kernel]
